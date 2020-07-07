@@ -1,0 +1,9 @@
+.logo {
+    height:660px;
+    width:auto;
+    padding:0px;
+    display:block;
+    margin:0 auto;
+    background:url('../assets/Letsdo.jpeg');
+    background-size: cover;
+}

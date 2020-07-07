@@ -1,0 +1,8 @@
+<app-add-lets-do (addLetsDo)="addLetsDo($event)"
+></app-add-lets-do>
+<app-let-do-item 
+*ngFor="let letdo of letsdos" 
+[letdo]="letdo"
+(deleteLetsDo)="deleteLetsDo($event)"
+>
+</app-let-do-item>
